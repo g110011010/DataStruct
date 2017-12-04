@@ -11,6 +11,9 @@ public class q10_1_2 extends StackIBArray {
     private int point1=stackSize;
     public void push1(int i){
         stack[--point1]=i;
+
+
+
     }
     public int pop1(){
         return stack[point1++];
